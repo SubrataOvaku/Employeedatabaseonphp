@@ -1,3 +1,6 @@
+<!--this is a php page 
+    this page used for data insert into database- 
+-->
 <?php 
     require 'dbconn.php';
     if($_SERVER['REQUEST_METHOD']=='POST'){

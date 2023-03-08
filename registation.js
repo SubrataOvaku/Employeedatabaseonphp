@@ -55,7 +55,6 @@ function deleteRow() {
 **this function is for edite row
 */
 function editeRow() {
-    // var id = document.getElementById("eid").value;
     name1 = document.getElementById("ename");
     number = document.getElementById("enumber");
     email =document.getElementById("eemail");
@@ -66,10 +65,7 @@ function editeRow() {
     if(valAll(name1, number, email, city, state, country, pin)) {
         return true;
     } else {
-        document.getElementById("editForm").addEventListener("submit", function(evn){
-            evn.preventDefault();
-        });
-        // return false;
+        return false;
     }
 }
 
